@@ -1,0 +1,13 @@
+Javascript modules cheat sheet:
+
+Here we using modules via npm, unless otherwise stated all files and install operations should
+be done in the root(javascript) directory of the project
+
+1: Make entrypoint, eg. app.js
+2: Run npm init
+3: install libraries we need using npm install {libraryname} --save
+	(The installed packages will be shown under dependencies in package.json)
+	NB: The node_modules folder can be recreated using npm install, never check this folder into git
+4: Create html-file where we load the module
+5: Next we need to configure webpack via the webpack.config.js file. This file must be created on project root. This is where we configure alle modules, loaders and whatnot that we will be using in webpack.
+
